@@ -64,5 +64,7 @@
   ];
 
   const randomIndex = Math.floor(Math.random() * actions.length);
-  actions[randomIndex]();
+  if (Math.random() < 0.1) {
+    actions[randomIndex]();
+  }
 })();
