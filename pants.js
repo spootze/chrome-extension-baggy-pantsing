@@ -25,18 +25,6 @@
       }
     },
     () => {
-      let scrollFlipped = false;
-      window.addEventListener("wheel", (e) => {
-        if (Math.random() > 0.95) {
-          scrollFlipped = !scrollFlipped;
-        }
-        if (scrollFlipped) {
-          e.preventDefault();
-          window.scrollBy(0, -e.deltaY);
-        }
-      });
-    },
-    () => {
       document.querySelectorAll("p, span, h1, h2, h3").forEach((el) => {
         if (Math.random() > 0.8) {
           const words = el.innerText.split(" ");
