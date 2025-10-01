@@ -1,6 +1,6 @@
 # Baggy pantsing plugin for Chrome
 
-Did your coworker leave their computer unlocked? Terrorize their browser experience with some subtle UI effects, like adding 
+Did your coworker leave their computer unlocked? Terrorize their browser experience with some subtle UI effects.
 
 ## Installation
 * Download extension files from https://tinyurl.com/loekaerit and unzip
